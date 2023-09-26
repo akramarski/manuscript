@@ -1,3 +1,210 @@
-header {
-    color:tomato;
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Lexend+Tera:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Erica+One&family=Lexend+Tera:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Erica+One&family=Lexend+Tera:wght@700&family=Lexend+Zetta:wght@200&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Erica+One&family=Lexend+Tera:wght@700&family=Lexend+Zetta:wght@200&family=Noto+Serif+NP+Hmong&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Erica+One&family=Lexend+Tera:wght@700&family=Lexend+Zetta:wght@200&family=Noto+Serif+NP+Hmong&family=Oswald&display=swap');
+
+
+.EricaOne{
+    font-family:'Erica One';
+       }
+
+.LexendTera {
+    font-family: 'Lexend Tera', sans-serif;
+        }
+
+ .LexendZetta {
+    font-family: 'Lexend Zetta', sans-serif;
+        }
+        
+.EbGaramond{
+    font-family: 'EB Garamond', serif;
+        }
+
+.Noto{
+    font-family: 'Noto Serif NP Hmong', serif;
+        }
+        
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+        }
+                
+ 
+/* FONTS */
+h1{
+    font-family:'Erica One';; 
+     text-transform: uppercase;
+     letter-spacing: 0.125em; 
+ }
+
+ h2, h3{
+    font-family: 'Lexend Zetta', sans-serif;
+    font-style: light; 
+     letter-spacing: 0em;
+     font-weight:thin;
+ }
+
+ strong {
+    font-family: 'Lexend Tera', sans-serif; 
+    font-size: 12px;
+    letter-spacing: 0.em;
+
+ }
+ .citation{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+ }
+ /* TYPE SCALE */
+ .logo {
+    font-size: 10px;
+      text-align: left;
+      position: relative;
+      padding-top: 20px;
+      padding-left: 60px;
+      color: white
+      
+  }
+  
+  .big_intro {
+    font-size: 10px;
+      text-align: left;
+      position: relative;
+      padding-top: 20px;
+      padding-left: 60px;
+      color: white;
+    
+  }
+  .intro_sub {
+    font-size: 40px;
+    text-align: right;
+      position: relative;
+      padding-top: 50px;
+      padding-right: 50px;
+      color: white
+     
+  }
+
+  .chapter{
+    font-size: 20px;
+    text-align: right;
+      position: relative;
+      padding-top: 50px;
+      padding-right: 50px;
+      color: white
+    }
+
+  .container {
+    background: black;
+    padding-bottom: 50px;
+  }
+  .index{
+    padding-top: 50px;
+    padding-left: 40px;
+  }
+  .text{ 
+    font-family: 'Lexend Zetta', sans-serif;
+    font-style: light;
+    font-size: 12px;
+    color: black;
+    line-height: 2;
+    padding-left: 40px;
+    padding-right:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .sec_text{ 
+    font-family: 'EB Garamond', serif;
+    font-style: light;
+    font-size: 18px;
+    color: black;
+    line-height: 2;
+    padding-left: 40px;
+    padding-right:50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .quote {
+    font-family: 'EB Garamond', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: white;
+    padding-top: 50px;
+      
+      
+  }
+
+  .mainquote {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 0.5;
+    padding-top: 50px;
 }
+  .division {
+    background: black;
+    padding-bottom: 50px;
+    text-align: right;
+    position: relative;
+    padding-right: 70px;
+    padding-left: 200px;
+    line-height: 5.5;
+  }
+ 
+  .heading{
+    text-align: center;
+  }
+  .subchapter{
+    font-family: 'Noto Serif NP Hmong', serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0.25rem;
+  }
+
+  .footer {
+    padding-right: 40px;
+    text-align: right;
+  }
+  .name {
+    font-size: 12px;
+    padding-right: 40px;
+    text-align: right;
+  }
+  
+  /* defining the links */
+
+
+  .nav_index a{
+    font-size: 12px;
+    font-family: 'Lexend Tera', sans-serif;
+    color: black;
+   letter-spacing: -0,5px;
+    
+}
+
+.nav a{
+    font-size: 12px;
+    padding:5px 15px;
+    font-family: 'Lexend Tera', sans-serif;
+    text-decoration: none;
+    color: white
+    
+}
+
+a:hover{
+    color: #acacac;
+    font-size: 12px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: underline;
+    cursor: pointer
+  }
