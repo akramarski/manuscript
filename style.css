@@ -38,6 +38,7 @@
                 
  
 /* FONTS */
+
 h1{
     font-family:'Erica One';; 
      text-transform: uppercase;
@@ -53,93 +54,130 @@ h1{
 
  strong {
     font-family: 'Lexend Tera', sans-serif; 
-    font-size: 12px;
-    letter-spacing: 0.em;
+    font-size: 20px;
+    letter-spacing: 0em;
 
  }
  .citation{
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-size: 20px;
  }
+
+#backmenu {
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 20%;
+    background-color: #000000;
+    
+}
+#dots {
+  display: block;
+  position: absolute;
+  height: 50%;
+  width: 200px;
+  margin-left: 800px;
+  bottom: 15px;
+  
+}
+
  /* TYPE SCALE */
  .logo {
     font-size: 10px;
       text-align: left;
-      position: relative;
-      padding-top: 20px;
-      padding-left: 60px;
-      color: white
-      
-  }
-  
-  .big_intro {
-    font-size: 10px;
-      text-align: left;
-      position: relative;
       padding-top: 20px;
       padding-left: 60px;
       color: white;
+  }
+  
+  .big_intro {
+    font-size: 20px;
+      text-align: left;
+      padding-top: 200px;
+      padding-left: 60px;
+      color: white;
+     
     
   }
   .intro_sub {
-    font-size: 40px;
+    font-size: 120px;
     text-align: right;
-      position: relative;
-      padding-top: 50px;
+      padding-top: 20px;
       padding-right: 50px;
       color: white
      
   }
 
   .chapter{
-    font-size: 20px;
+    font-size: 30px;
     text-align: right;
-      position: relative;
       padding-top: 50px;
       padding-right: 50px;
       color: white
     }
 
   .container {
-    background: black;
+    background-color: black;
     padding-bottom: 50px;
+    
   }
   .index{
-    padding-top: 50px;
-    padding-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: 400px;
+    font-size: 15px;
+    
   }
   .text{ 
     font-family: 'Lexend Zetta', sans-serif;
     font-style: light;
-    font-size: 12px;
+    font-size: 20px;
     color: black;
-    line-height: 2;
-    padding-left: 40px;
-    padding-right:50px;
+    line-height: 1.75;
+    margin-left: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    max-width: 50rem;
+  }
+
+  .heading {
+    padding-top: 100px;
+  }
+
+  .response{ 
+    font-family: 'Lexend Zetta', sans-serif;
+    font-style: light;
+    font-size: 20px;
+    color: black;
+    line-height: 1.75;
+    padding-left: 400px;
     padding-top: 50px;
     padding-bottom: 50px;
+    max-width: 45rem;
+    transform: rotate(-5grad);
+   
+
   }
 
   .sec_text{ 
     font-family: 'EB Garamond', serif;
     font-style: light;
-    font-size: 18px;
+    font-size: 25px;
     color: black;
-    line-height: 2;
-    padding-left: 40px;
-    padding-right:50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    line-height: 1.5;
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 60px;
+   padding-right: 60px;
   }
 
   .quote {
     font-family: 'EB Garamond', serif;
-    font-size: 15px;
+    font-size: 30px;
     line-height: 1.5;
     color: white;
     padding-top: 50px;
-      
-      
+     
   }
 
   .mainquote {
@@ -152,59 +190,113 @@ h1{
     background: black;
     padding-bottom: 50px;
     text-align: right;
-    position: relative;
     padding-right: 70px;
-    padding-left: 200px;
+    padding-left: 240px;
     line-height: 5.5;
+    font-style: italic;
   }
  
   .heading{
     text-align: center;
+    font-size: 40px;
+    
   }
   .subchapter{
     font-family: 'Noto Serif NP Hmong', serif;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 60px;
     text-align: center;
     letter-spacing: 0.25rem;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
-  .footer {
+.footer {
+  padding-top: 80px;
     padding-right: 40px;
-    text-align: right;
+    text-align: left;
+    transform: rotate(-5grad);
+    padding-left: 270px;
   }
   .name {
     font-size: 12px;
-    padding-right: 40px;
-    text-align: right;
+    text-align: left;
+    transform: rotate(-5grad);
+    padding-left: 400px;
+    transform: rotate(-5grad);
+    padding-left: 270px;
+  }
+
+  .footerm{
+    background-color: #000000;
+    position:relative;
+    width: 100%;
+    height: 50px;
+    
   }
   
   /* defining the links */
 
 
   .nav_index a{
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Lexend Tera', sans-serif;
     color: black;
-   letter-spacing: -0,5px;
+   letter-spacing: 0,5px;
+   line-height: 1.5;
+   padding-left: 360px;
+   padding-right: 20px;
+   display: inline-block;
+   margin-bottom: 10px;
     
 }
 
 .nav a{
-    font-size: 12px;
-    padding:5px 15px;
+    font-size: 18px;
+    display: block;
+    width: 200px;
     font-family: 'Lexend Tera', sans-serif;
     text-decoration: none;
-    color: white
-    
+    color: white;
+
+
 }
+
 
 a:hover{
     color: #acacac;
-    font-size: 12px;
+    font-size: 18px;
     opacity: 0.6;
     transition: 0.3s;
-    display: inline-block;
-    text-decoration: underline;
+    text-decoration: none;
     cursor: pointer
+   
   }
+
+
+/* boxsizing */
+  html,body
+  {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x:hidden; 
+  }
+
+.col-2{
+  text-align: center;
+  color: #EDEDED;
+  font-family: 'Lexend Zetta', sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.col-1{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+  word-wrap: break-word;
+  overflow:hidden;
+width: 22.5%;
+}
