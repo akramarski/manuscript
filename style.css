@@ -63,23 +63,6 @@ h1{
     font-size: 20px;
  }
 
-#backmenu {
-    position:absolute;
-    display: block;
-    width: 100%;
-    height: 20%;
-    background-color: #000000;
-    
-}
-#dots {
-  display: block;
-  position: absolute;
-  height: 50%;
-  width: 200px;
-  margin-left: 800px;
-  bottom: 15px;
-  
-}
 
  /* TYPE SCALE */
  .logo {
@@ -126,6 +109,7 @@ h1{
     margin-bottom: 70px;
     margin-left: 400px;
     font-size: 15px;
+   
     
   }
   .text{ 
@@ -264,15 +248,13 @@ h1{
 
 
 a:hover{
-    color: #acacac;
+    color: #fac6c6;
     font-size: 18px;
-    opacity: 0.6;
     transition: 0.3s;
     text-decoration: none;
     cursor: pointer
    
   }
-
 
 /* boxsizing */
   html,body
@@ -299,4 +281,22 @@ a:hover{
   word-wrap: break-word;
   overflow:hidden;
 width: 22.5%;
+}
+
+#backmenu {
+  position:absolute;
+  display: block;
+  width: 100%;
+  height: 20%;
+  background-color: #000000;
+  
+}
+#dots {
+display: block;
+position: absolute;
+height: 50%;
+width: 200px;
+margin-left: 800px;
+bottom: 15px;
+
 }
